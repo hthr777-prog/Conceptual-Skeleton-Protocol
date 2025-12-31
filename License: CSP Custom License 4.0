@@ -19,3 +19,30 @@ Copyright © 2025 Michael Kenigsberg. All rights reserved.
  * איסור עקיפה: חל איסור על יצירת "גרסאות ממותגות" של הפרוטוקול תחת שם אחר בתוך ארגונים גדולים, אם אלו משמרות את ההיגיון המבני של ה-CSP.
 5. ייחוס (Attribution)
 בכל הפצה של עקרונות השיטה, יש לתת קרדיט למחבר: Michael Kenigsberg וקישור למקור: https://github.com/hthr777-prog/ACDP-u-Protocol.
+
+# CSP LICENSE: CC BY-NC 4.0 + Commercial Exceptions & Productivity Rule
+Copyright © 2025 Michael Kenigsberg. All rights reserved.
+
+## 1. Permitted Users
+Despite the "non-commercial use" limitation of the CC BY-NC license, free commercial use is granted to the following groups:
+* Independent creators and freelancers: including licensed professionals, single-member LLCs/PCs, and independent content creators.
+* Small businesses and studios: entities employing up to 5 full-time employees.
+* Academia and non-profits: researchers, students, and non-profit institutions (for their core activities).
+
+## 2. Output Ownership
+* Method vs. output: Copyright for any work created using the protocol (books, articles, reports, or consulting deliverables) belongs entirely to the creator of the output.
+* Freedom to operate: Registered freelancers may charge for analytical services based on CSP, provided they do not sell the protocol itself as a "ready-made product."
+
+## 3. Corporate Restrictions
+Entities employing more than 5 people, or technology platforms, may not perform the following without a separate commercial license:
+* **The Publicity Rule:** Using the "CSP" or "Conceptual Skeleton Protocol" brand in external publications, marketing, service descriptions, or organizational training is prohibited.
+* **Technological Integration:** Implementing the protocol’s structure in enterprise AI systems, SaaS applications, or any software intended for end-user distribution is prohibited.
+* **Organizational Formalization:** Defining the protocol as an official organizational procedure (SOP) is prohibited.
+
+## 4. Derivative Works & Core Logic
+* **Structure Protection:** License protections apply not only to the exact text but also to the unique logical structure of CSP.
+* **Core Principle:** Any methodology, tool, or process based on any of the five core components of the protocol (Experience, Foundation, Mediator, Gap, Purpose), or on the root/stem/variation analysis method, will be considered a derivative work.
+* **No Circumvention:** Creating "branded versions" of the protocol under a different name within large organizations, if they preserve the structural logic of CSP, is prohibited.
+
+## 5. Attribution
+Whenever distributing the principles of the method, credit must be given to Michael Kenigsberg with a link to the source: [https://github.com/hthr777-prog/ACDP-u-Protocol](https://github.com/hthr777-prog/ACDP-u-Protocol).
