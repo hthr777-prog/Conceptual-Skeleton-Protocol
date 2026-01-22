@@ -1,46 +1,19 @@
-CSP LICENSE: CC BY-NC 4.0 + Commercial Exceptions & Productivity Rule
-Copyright © 2025 Michael Kenigsberg. All rights reserved.
-1. הגדרת משתמשים מורשים (Permitted Users)
-למרות מגבלת ה"שימוש הלא-מסחרי" של רישיון CC BY-NC, מוענק היתר שימוש מסחרי חופשי לקבוצות הבאות:
- * יוצרים עצמאיים ופרילנסרים: כולל עוסקים מורשים, חברות יחיד (Single-member LLC/PC), ויוצרי תוכן עצמאיים.
- * עסקים קטנים וסטודיו: גופים המעסיקים עד 5 עובדים במשרה מלאה.
- * אקדמיה ומלכ"רים: חוקרים, סטודנטים ומוסדות ללא כוונת רווח (עבור פעילות הליבה שלהם).
-2. היתר עבודה מול לקוחות (Output Ownership)
- * השיטה מול התוצר: זכויות היוצרים על כל תוצר שנכתב בעזרת הפרוטוקול (ספר, מאמר, דוח ייעוץ) שייכות במלואן ליוצר התוצר.
- * חופש העיסוק: פרילנסר רשום רשאי לגבות תשלום עבור שירותי ניתוח המבוססים על CSP, ובלבד שאינו מוכר את הפרוטוקול עצמו כ"מוצר מדף".
-3. איסורים על תאגידים וגופים מסחריים (Corporate Restrictions)
-גופים המעסיקים מעל 5 עובדים, או פלטפורמות טכנולוגיות, אינם רשאים לבצע את הפעולות הבאות ללא רישיון מסחרי נפרד:
- * כלל הפומביות (The Publicity Rule): חל איסור על שימוש בשמות המותג "CSP" או "Conceptual Skeleton Protocol" בפרסומים חיצוניים, שיווק, תיאורי שירותים או הדרכות ארגוניות.
- * הטמעה טכנולוגית: חל איסור להזין את מבנה הפרוטוקול לתוך מערכות AI ארגוניות, אפליקציות SaaS, או כל כלי תוכנה המיועד לשימוש משתמשי קצה.
- * מיסוד ארגוני: חל איסור להגדיר את הפרוטוקול כנוהל עבודה רשמי (SOP) בתוך הארגון.
-4. יצירות נגזרות ושימוש במהות הפרוטוקול (Derivative Works & Core Logic)
- * הגנה על המבנה: הגנות הרישיון חלות לא רק על הטקסט המדויק, אלא על המבנה הלוגי הייחודי של ה-CSP.
- * כלל הליבה: כל מתודולוגיה, כלי עבודה או תהליך המבוססים על חלק מחמשת מרכיבי הליבה של הפרוטוקול (חוויה, יסוד, מתווך, פער, תכלית), או על שיטת הניתוח המבחינה בין שורש, גזע ווריאציות, ייחשבו כ"יצירה נגזרת".
- * איסור עקיפה: חל איסור על יצירת "גרסאות ממותגות" של הפרוטוקול תחת שם אחר בתוך ארגונים גדולים, אם אלו משמרות את ההיגיון המבני של ה-CSP.
-5. ייחוס (Attribution)  
-בכל הפצה של עקרונות השיטה, יש לתת קרדיט למחבר: Michael Kenigsberg וקישור למקור: https://github.com/hthr777-prog/Conceptual-Skeleton-Protocol/blob/main/License%3A%20CSP%20Custom%20License%204.0
-# CSP LICENSE: CC BY-NC 4.0 + Commercial Exceptions & Productivity Rule
-Copyright © 2025 Michael Kenigsberg. All rights reserved.
+```markdown
+# CSP Licensing
 
-## 1. Permitted Users
-Despite the "non-commercial use" limitation of the CC BY-NC license, free commercial use is granted to the following groups:
-* Independent creators and freelancers: including licensed professionals, single-member LLCs/PCs, and independent content creators.
-* Small businesses and studios: entities employing up to 5 full-time employees.
-* Academia and non-profits: researchers, students, and non-profit institutions (for their core activities).
+## Free Use (CC BY-NC-ND 4.0)
+- Personal use ✓
+- Academic research ✓
+- Internal business use ✓
+- Teaching (non-commercial) ✓
 
-## 2. Output Ownership
-* Method vs. output: Copyright for any work created using the protocol (books, articles, reports, or consulting deliverables) belongs entirely to the creator of the output.
-* Freedom to operate: Registered freelancers may charge for analytical services based on CSP, provided they do not sell the protocol itself as a "ready-made product."
+## Commercial License Required
+For any commercial application including:
+- Selling CSP-based services
+- Paid training or consulting
+- Software products incorporating CSP
+- Publishing derivative works
 
-## 3. Corporate Restrictions
-Entities employing more than 5 people, or technology platforms, may not perform the following without a separate commercial license:
-* **The Publicity Rule:** Using the "CSP" or "Conceptual Skeleton Protocol" brand in external publications, marketing, service descriptions, or organizational training is prohibited.
-* **Technological Integration:** Implementing the protocol’s structure in enterprise AI systems, SaaS applications, or any software intended for end-user distribution is prohibited.
-* **Organizational Formalization:** Defining the protocol as an official organizational procedure (SOP) is prohibited.
-
-## 4. Derivative Works & Core Logic
-* **Structure Protection:** License protections apply not only to the exact text but also to the unique logical structure of CSP.
-* **Core Principle:** Any methodology, tool, or process based on any of the five core components of the protocol (Experience, Foundation, Mediator, Gap, Purpose), or on the root/stem/variation analysis method, will be considered a derivative work.
-* **No Circumvention:** Creating "branded versions" of the protocol under a different name within large organizations, if they preserve the structural logic of CSP, is prohibited.
-
-## 5. Attribution: Whenever distributing the principles of the method, credit must be given to Michael Kenigsberg with a link to the source: https://github.com/hthr777-prog/Conceptual-Skeleton-Protocol/edit/main/License%3A%20CSP%20Custom%20License%204.0
+**Contact:** [email]  
+**Licensing:** Custom arrangements based on use case
+```
