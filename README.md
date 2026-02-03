@@ -62,4 +62,5 @@ The fastest way to implement CSP is to provide the model with the protocol as a 
 This is a **Concept Edition** — clean, tech-free, and focused on pure logic. 
 I welcome critiques, questions, or use cases I haven't considered.
 
-**Created by [Your Name/Handle]**
+**Created by Michael Koenigsberg**
+hthr777@gmail.com
