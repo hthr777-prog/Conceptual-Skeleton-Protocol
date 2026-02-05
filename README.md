@@ -83,5 +83,4 @@ The protocol is intentionally minimal and conservative by design.
 
 ## License
 
-Open for study, experimentation, and integration.  
-Attribution appreciated.
+CC BY-NC-ND 4.0
