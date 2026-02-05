@@ -45,21 +45,6 @@ Only after the conceptual skeleton is fixed does reasoning begin.
 
 ---
 
-## Quick Start
-
-### For Users
-Paste `system-prompt.md` as the **first message** to the model  
-(or as a system prompt, if supported).
-
-### For Developers
-Inject `system-prompt.md` as the **system instruction** in your API call.
-
-### Advanced Usage
-To enable additional components, append `component-library.md`  
-**after** the system prompt.
-
----
-
 ## Design Principles
 
 - No implicit assumptions  
