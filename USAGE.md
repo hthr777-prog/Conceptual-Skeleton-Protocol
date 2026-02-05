@@ -4,8 +4,10 @@
 הדבק את `system-prompt.md` כהודעה ראשונה למודל  
 (או כ-system prompt אם הפלטפורמה תומכת).
 
+הוסף את `concept-edition.md`  
+)
 ### למפתחים:
-שלב את `system-prompt.md` כ-system instruction ב-API.
+שלב כ-system instruction ב-API.
 
 ### שימוש מתקדם:
 אם אתה רוצה שהמודל ישתמש ברכיבים נוספים (K, R, L, V...),  
@@ -15,6 +17,6 @@
 
 ## מה כל קובץ עושה
 
-- **`concept-edition.md`** — הפרוטוקול המלא (לקריאה אנושית)
-- **`system-prompt.md`** — הוראות למודל (להדבקה)
+- **`system-prompt.md`** — הוראות למודל (אופציונלי)
+- **`concept-edition.md`** — הפרוטוקול המלא (חובה) 
 - **`component-library.md`** — רכיבים מורחבים (אופציונלי).
