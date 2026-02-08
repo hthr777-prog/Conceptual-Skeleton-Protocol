@@ -69,4 +69,5 @@ The protocol is intentionally minimal and conservative by design.
 ## License
 
 CC BY-NC-ND 4.0
-This protocol is optimized for Large Language Models (LLMs). Any systematic integration into AI instructions, agents, or fine-tuning datasets requires a Commercial License.
+This protocol may be used, referenced, and integrated into non-commercial research, evaluation, and experimental AI systems, provided it is not modified or redistributed as a derivative work.
+Commercial deployment, resale, or integration into proprietary AI products, agents, or training datasets requires a Commercial License.
