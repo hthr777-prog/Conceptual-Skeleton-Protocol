@@ -29,22 +29,6 @@ Only after the conceptual skeleton is fixed does reasoning begin.
 
 ---
 
-## Repository Structure
-
-- **`concept-edition.md`**  
-  The full CSP protocol (human-readable, for understanding and evaluation)
-
-- **`system-prompt.md`**  
-  Instructions for the model (to be injected as a system prompt)
-
-- **`component-library.md`**  
-  Optional extended components (K, R, L, V, etc.)
-
-- **`USAGE.md`**  
-  Practical instructions for using CSP immediately
-
----
-
 ## Design Principles
 
 - No implicit assumptions  
