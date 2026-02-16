@@ -1,53 +1,176 @@
-# CSP — Get Structured Answers, Not "It Depends"
+CSP — Get Structured Answers, Not "It Depends"
 
-## What CSP Solves
+Conceptual Skeleton Protocol (CSP)
+Framework for making AI answers clear, structured, and debuggable by separating meanings before reasoning.
 
-### ✅ Stop "it depends" answers
-**Problem:** AI gives you wishy-washy responses when you need clear decisions.
-**With CSP:** Value mapping + decision framework instead of vague "context matters."
-
-### ✅ RAG that actually understands meaning
-**Problem:** Keyword-based retrieval returns irrelevant results.
-**With CSP:** Component-based retrieval that separates concepts before searching.
-
-### ✅ Consistent outputs for fine-tuning
-**Problem:** Training data is inconsistent because concepts get mixed.
-**With CSP:** Structured datasets where every component is clearly separated.
-
-### ✅ Debug AI reasoning, not just outputs
-**Problem:** You see wrong answers but don't know where the confusion started.
-**With CSP:** Track exactly where meaning got mixed or logic broke.
-
-### ✅ Content that doesn't contradict itself
-**Problem:** AI writes 5 paragraphs that use the same word differently.
-**With CSP:** One meaning per term, components stay separated.
-
-### ✅ Structured thinking instead of step-by-step rambling
-**Problem:** Chain-of-Thought gives you 10 steps when you need a framework.
-**With CSP:** Parallel components (F/E/C) that reveal structure, not just sequence.
 
 ---
 
-## How It Works
+🎯 Who Is This For
 
-**3 Layers:**
+Use CSP if you are:
 
-**1. Meaning Separation**
-One word, one meaning at a time. No mixing.
+Building RAG systems
 
-**2. Component Analysis**
-Foundation / Experience / Causality separated clearly.
+Fine-tuning LLMs
 
-**3. Decision Framework**
-For normative/practical questions: value mapping + boundaries instead of intuition.
+Writing system prompts
+
+Debugging AI reasoning
+
+Frustrated with vague or inconsistent AI answers
+
+
+
+---
+
+❗ The Problems CSP Solves
+
+✅ Stop vague "it depends" answers
+
+AI mixes meanings and gives unclear conclusions.
+CSP separates meanings first → clearer decisions.
+
+✅ RAG that retrieves the right concept
+
+Keyword search retrieves irrelevant info.
+CSP indexes concepts, not words.
+
+✅ Consistent fine-tuning datasets
+
+Training data mixes meanings.
+CSP labels components separately.
+
+✅ Debug reasoning, not just outputs
+
+You see wrong answers but don’t know why.
+CSP tracks where meaning got mixed.
+
+✅ Content that doesn’t contradict itself
+
+Same word used in different senses.
+CSP enforces one meaning at a time.
+
 
 ---
 
-## Quick Start
+🧠 How CSP Works
 
-Copy the protocol → Paste in system prompt → Ask questions.
+CSP forces analysis in 3 layers:
+
+1. Meaning Separation
+One term → one meaning at a time.
+
+
+2. Component Analysis
+Split into:
+
+F — Foundation (definitions, assumptions)
+
+E — Experience (data, observations)
+
+C — Causality (mechanisms, logic)
+
+
+
+3. Decision Framework
+For practical questions → value mapping + clear boundaries.
+
+
+
 
 ---
+
+🧪 Example
+
+Question:
+“Is remote work good?”
+
+Without CSP:
+
+> It depends on context…
+
+
+
+With CSP:
+
+F: productivity metrics definition
+
+E: employee satisfaction data
+
+C: impact on retention
+
+
+Decision: trade-off between output stability and flexibility.
+
+Clear structure → clear reasoning.
+
+
+---
+
+⚙️ How To Use CSP
+
+Option 1 — System Prompt
+
+Paste CSP into your system message and ask questions normally.
+
+Option 2 — RAG Integration
+
+1. Split documents into F / E / C components
+
+
+2. Index separately
+
+
+3. Retrieve by component type
+
+
+
+Option 3 — Dataset Labeling
+
+Annotate training data with CSP components to prevent concept mixing.
+
+
+---
+
+🧭 When CSP Helps Most
+
+Use CSP if your AI:
+
+Gives vague answers
+
+Retrieves wrong meaning in RAG
+
+Produces inconsistent datasets
+
+Is hard to debug
+
+Mixes concepts in long responses
+
+
+
+---
+
+⚠️ Limitations
+
+Requires careful prompt design
+
+Not ideal for creative writing
+
+Needs testing per domain
+
+
+
+---
+
+🤝 Contributing
+
+Ideas, experiments, benchmarks, and integrations are welcome.
+Open an issue or discussion.
+
+
+---
+
 
 ## License
 
