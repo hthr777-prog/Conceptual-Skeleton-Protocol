@@ -1,121 +1,22 @@
-# CSP — Get Structured Answers, Not "It Depends"
+# CSP — Conceptual Skeleton Protocol (v1.0)
 
-**Conceptual Skeleton Protocol (CSP)**  
-A framework for making AI answers clear, structured, and debuggable by separating meanings before reasoning.
+**Conceptual Skeleton Protocol (CSP)** הוא משטר חשיבה פנימי עבור מודלי שפה גדולים (LLMs), שנועד להשיג חסינות מושגית ומניעת כשלים לוגיים הנובעים מרב-משמעות (Equivocation).
 
----
+הפרוטוקול מגדיר סטנדרט עבודה לייצוב משמעות בתוך תהליך ההסקה של המודל. הוא כופה הפרדה מבנית בין הגדרות יסוד, תצפיות אמפיריות ומנגנונים תפקודיים, ובכך מונע את הנטייה הטבעית של מודלים ל"זליגה סמנטית" – מצב שבו משמעות המושג משתנה או מתערבבת במהלך הניתוח.
 
-## 🎯 Who Is This For
+### הבעיות שבבסיס הפרוטוקול
 
-Use CSP if you are:
+* **Equivocation (כפל משמעות):** שימוש במונח אחד לייצוג מושגים שונים בתוך אותה שרשרת הסקה.
+* **Semantic Drift:** אובדן העקביות הלוגית בתשובות ארוכות או מורכבות.
+* **Structural Ambiguity:** ערבוב בין "מהו הדבר" לבין "איך הוא פועל" או "איך הוא נחווה".
 
-- Building RAG systems
-- Fine-tuning LLMs
-- Writing system prompts
-- Debugging AI reasoning
-- Frustrated with vague or inconsistent AI answers
+### יישומים
 
----
-
-## ❗ The Problems CSP Solves
-
-### ✅ Stop vague "it depends" answers
-**Problem:** AI mixes meanings and gives unclear conclusions.  
-**Solution:** CSP separates meanings first → clearer decisions.
-
-### ✅ RAG that retrieves the right concept
-**Problem:** Keyword search retrieves irrelevant info.  
-**Solution:** CSP indexes concepts, not words.
-
-### ✅ Consistent fine-tuning datasets
-**Problem:** Training data mixes meanings.  
-**Solution:** CSP labels components separately.
-
-### ✅ Debug reasoning, not just outputs
-**Problem:** You see wrong answers but don't know why.  
-**Solution:** CSP tracks where meaning got mixed.
-
-### ✅ Content that doesn't contradict itself
-**Problem:** Same word used in different senses.  
-**Solution:** CSP enforces one meaning at a time.
+* **High-Precision Reasoning:** הבטחת דיוק מושגי במערכות תומכות החלטה.
+* **Structural RAG:** שיפור איכות השליפה והעיבוד על בסיס קטגוריות מהותיות.
+* **AI Safety & Alignment:** יצירת מסגרת קשיחה למניעת הטיות הנובעות מהגדרות גמישות מדי.
+* **Evaluation:** כלי למדידת עקביות מושגית של מודלים.
 
 ---
 
-## 🧠 How CSP Works
-
-CSP forces analysis in 3 layers:
-
-### 1. Meaning Separation
-One term → one meaning at a time.
-
-### 2. Component Analysis
-Split into:
-- **F — Foundation** (definitions, assumptions)
-- **E — Experience** (data, observations)
-- **C — Causality** (mechanisms, logic)
-
-### 3. Decision Framework
-For practical questions → value mapping + clear boundaries.
-
----
-
-## 🧪 Example
-
-**Question:**  
-*"Is remote work good?"*
-
-**Without CSP:**
-> It depends on context…
-
-**With CSP:**
-- **F:** productivity metrics definition
-- **E:** employee satisfaction data
-- **C:** impact on retention
-- **Decision:** trade-off between output stability and flexibility.
-
-Clear structure → clear reasoning.
-
----
-
-## ⚙️ How To Use CSP
-
-Paste the CSP protocol into your system prompt and ask questions normally.
-
-**Tested with Gemini (using Gems).**
-
----
-
-## 🧭 When CSP Helps Most
-
-Use CSP if your AI:
-
-- Gives vague answers
-- Retrieves wrong meaning in RAG
-- Produces inconsistent datasets
-- Is hard to debug
-- Mixes concepts in long responses
-
----
-
-## ⚠️ Limitations
-
-- Requires careful prompt design
-- Not ideal for creative writing
-- Needs testing per domain
-
----
-
-## 🤝 Contributing
-
-Ideas, experiments, benchmarks, and integrations are welcome.  
-Open an issue or discussion.
-
----
-
-## 📄 License
-
-**CC BY-NC-ND 4.0**
-
-This protocol may be used, referenced, and integrated into non-commercial research, evaluation, and experimental AI systems, provided it is not modified or redistributed as a derivative work.
-
-Commercial deployment, resale, or integration into proprietary AI products, agents, or training datasets requires a Commercial License.
+**License:** CC BY-NC-ND 4.0 (February 2026)
