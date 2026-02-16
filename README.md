@@ -1,22 +1,23 @@
 # CSP — Conceptual Skeleton Protocol (v1.0)
 
-**Conceptual Skeleton Protocol (CSP)** הוא משטר חשיבה פנימי עבור מודלי שפה גדולים (LLMs), שנועד להשיג חסינות מושגית ומניעת כשלים לוגיים הנובעים מרב-משמעות (Equivocation).
+**Conceptual Skeleton Protocol (CSP)** is an internal reasoning framework for Large Language Models (LLMs) designed to ensure **conceptual stability** and prevent logical fallacies arising from equivocation.
 
-הפרוטוקול מגדיר סטנדרט עבודה לייצוב משמעות בתוך תהליך ההסקה של המודל. הוא כופה הפרדה מבנית בין הגדרות יסוד, תצפיות אמפיריות ומנגנונים תפקודיים, ובכך מונע את הנטייה הטבעית של מודלים ל"זליגה סמנטית" – מצב שבו משמעות המושג משתנה או מתערבבת במהלך הניתוח.
+Unlike standard prompting techniques that focus on output formatting, CSP operates at the structural level of reasoning. It enforces a rigorous separation between foundational definitions, empirical observations, and functional mechanisms, thereby neutralizing "semantic drift"—a common failure mode where a model’s internal definition of a concept shifts or blurs during analysis.
 
-### הבעיות שבבסיס הפרוטוקול
+### Core Problems Solved
 
-* **Equivocation (כפל משמעות):** שימוש במונח אחד לייצוג מושגים שונים בתוך אותה שרשרת הסקה.
-* **Semantic Drift:** אובדן העקביות הלוגית בתשובות ארוכות או מורכבות.
-* **Structural Ambiguity:** ערבוב בין "מהו הדבר" לבין "איך הוא פועל" או "איך הוא נחווה".
+* **Equivocation:** Preventing the use of a single term to represent distinct concepts within the same inference chain.
+* **Semantic Drift:** Maintaining structural and logical consistency across complex or long-form responses.
+* **Structural Ambiguity:** Eliminating the confusion between what a thing is (**Foundation**), how it manifests (**Experience**), and how it functions (**Causality**).
 
-### יישומים
+### Applications
 
-* **High-Precision Reasoning:** הבטחת דיוק מושגי במערכות תומכות החלטה.
-* **Structural RAG:** שיפור איכות השליפה והעיבוד על בסיס קטגוריות מהותיות.
-* **AI Safety & Alignment:** יצירת מסגרת קשיחה למניעת הטיות הנובעות מהגדרות גמישות מדי.
-* **Evaluation:** כלי למדידת עקביות מושגית של מודלים.
+* **High-Precision Reasoning:** Ensuring conceptual purity in analytical and decision-support systems.
+* **Structural RAG:** Enhancing retrieval and processing quality by indexing through essential categories (F/E/C) rather than simple keyword matching.
+* **Data Integrity:** Establishing logical consistency in data labeling and model training tasks.
+* **Model Evaluation:** Providing a framework for measuring the conceptual robustness and consistency of LLMs.
 
 ---
+
 
 **License:** CC BY-NC-ND 4.0 (February 2026)
