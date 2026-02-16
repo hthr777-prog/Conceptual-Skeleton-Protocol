@@ -1,52 +1,51 @@
-# CSP — Conceptual Skeleton Protocol
+# CSP — Get Structured Answers, Not "It Depends"
 
-CSP is a protocol for **conceptual clarity** in language models.  
-It reduces ambiguity by forcing explicit separation between different meanings of the same word,  
-before analysis or reasoning begins.
+## What CSP Solves
 
-Instead of guessing intent, CSP decomposes concepts into stable components and operates on them explicitly.
+### ✅ Stop "it depends" answers
+**Problem:** AI gives you wishy-washy responses when you need clear decisions.
+**With CSP:** Value mapping + decision framework instead of vague "context matters."
 
----
+### ✅ RAG that actually understands meaning
+**Problem:** Keyword-based retrieval returns irrelevant results.
+**With CSP:** Component-based retrieval that separates concepts before searching.
 
-## What Problem Does CSP Solve?
+### ✅ Consistent outputs for fine-tuning
+**Problem:** Training data is inconsistent because concepts get mixed.
+**With CSP:** Structured datasets where every component is clearly separated.
 
-Large Language Models often fail in two opposite ways:
-- Overly long answers that mix unrelated meanings
-- Overly short answers that require endless clarification
+### ✅ Debug AI reasoning, not just outputs
+**Problem:** You see wrong answers but don't know where the confusion started.
+**With CSP:** Track exactly where meaning got mixed or logic broke.
 
-Both stem from the same issue:  
-**different meanings of the same term are mixed without being identified.**
+### ✅ Content that doesn't contradict itself
+**Problem:** AI writes 5 paragraphs that use the same word differently.
+**With CSP:** One meaning per term, components stay separated.
 
-CSP prevents this at the structural level.
-
----
-
-## Core Idea
-
-**Concept → Possible Types → Type Selection → Component Extraction**
-
-Only after the conceptual skeleton is fixed does reasoning begin.
-
----
-
-## Design Principles
-
-- No implicit assumptions  
-- No mixed meanings  
-- No invented components  
-- Structure before reasoning  
-- Precision over verbosity
+### ✅ Structured thinking instead of step-by-step rambling
+**Problem:** Chain-of-Thought gives you 10 steps when you need a framework.
+**With CSP:** Parallel components (F/E/C) that reveal structure, not just sequence.
 
 ---
 
-## Status
+## How It Works
 
-This repository contains:
-- A **stable conceptual protocol**
-- A **working system prompt**
-- An **extensible component architecture**
+**3 Layers:**
 
-The protocol is intentionally minimal and conservative by design.
+**1. Meaning Separation**
+One word, one meaning at a time. No mixing.
+
+**2. Component Analysis**
+Foundation / Experience / Causality separated clearly.
+
+**3. Decision Framework**
+For normative/practical questions: value mapping + boundaries instead of intuition.
+
+---
+
+## Quick Start
+
+Copy the protocol → Paste in system prompt → Ask questions.
 
 ---
 
