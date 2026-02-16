@@ -79,16 +79,9 @@ Clear structure → clear reasoning.
 
 ## ⚙️ How To Use CSP
 
-### Option 1 — System Prompt
-Paste CSP into your system message and ask questions normally.
+Paste the CSP protocol into your system prompt and ask questions normally.
 
-### Option 2 — RAG Integration
-1. Split documents into F / E / C components
-2. Index separately
-3. Retrieve by component type
-
-### Option 3 — Dataset Labeling
-Annotate training data with CSP components to prevent concept mixing.
+**Tested with Gemini (using Gems).**
 
 ---
 
