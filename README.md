@@ -19,5 +19,11 @@ Unlike standard prompting techniques that focus on output formatting, CSP operat
 
 ---
 
+### **How to use CSP (The Simple Way)**
+
+* **In Claude:** Paste the protocol text at the very beginning of a new conversation (this ensures the most consistent performance).
+* **In Gemini:** Upload the protocol through **Gems** (rather than a regular chat) to ensure full and comprehensive analysis.
+  
+---
 
 **License:** CC BY-NC-ND 4.0 (February 2026)
